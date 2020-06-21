@@ -15,7 +15,7 @@
 Активация conda environment:
 
 ```
-conda create -n smk_sin snakemake=5.19.2 singularity=3.5.3 -c bioconda
+conda create -n smk_sin snakemake=5.19.2 singularity=3.5.3 -c bioconda -c conda-forge
 conda activate smk_sin
 ```
 
